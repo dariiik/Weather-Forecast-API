@@ -5,14 +5,14 @@ A web-application that was built through JavaScript and Django Framework using W
 I implemented API using JavaScript and Django. Django was used for server-side API implementation and JavaScript for the client-side. 
 
 
-# Testing
+### Testing
 
 To test the web-application, open terminal and copy the following line: 
 ```
 python -m test
 ```
 
-# Import the Atheris library
+### Import the Atheris library
 
 If you do not have Atheris Fuzzing Enginer, do the following. 
 
@@ -30,7 +30,7 @@ Install:
 CLANG_BIN="$(pwd)/bin/clang" pip3 install <whatever>
 ```
 
-# Explaining what the Fuzzing Testing Code does
+### Explaining what the Fuzzing Testing Code does
 
 First function of my Testing Code is:
 ```
@@ -48,7 +48,7 @@ def data_wrangling(data):
 
 Generally, this function tests whether we have inputted correct data type, which is string. If so, there is no error. If the input data is non-string, we throw an Error Non-string input triggered. 
 
-# Atheris Fuzzing
+### Atheris Fuzzing
 
 At the end of the testing, we can start testing with Atheris through the following lines: 
 ```
