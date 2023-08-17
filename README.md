@@ -38,7 +38,7 @@ def fuzz_testing(data):
     ....
 ```
 
-In general, this function tests the response and request flow of my API. It sends random data to our API and it triggers the error response (HTTP Bad request). My goal was to check the API for data validationn. 
+In general, this function tests the response and request flow of my API. It sends random data to our API and it triggers the error response (HTTP Bad request). My goal was to check the API for data validation. 
 
 Second function of my Testing Code is:
 ```
